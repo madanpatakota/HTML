@@ -1,0 +1,35 @@
+Q) how we are going to apply the style to the entire the applicaiotn?
+
+
+i dot' want to your own styles
+
+
+i want the differnt 
+
+bootstrap
+uikit  - iphone
+angularmaterials
+
+
+98% websites they are using javascript
+ along with html and css
+
+ world no 1 jobs --- . javascript
+ angular
+ react
+ vue
+ nodejs
+ backbone
+ 
+
+
+
+
+
+
+
+
+
+style to the element
+style to the pagelevel
+style to the application( collection of the webpages)

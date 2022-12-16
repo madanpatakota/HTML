@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Forms</title>
+<style>
+     label{
+        width:200px;
+        float:left;
+        text-align: right;
+     }
+     input , select , textarea {
+        margin:5px;
+     }
+     #submit-id{
+        background-color:yellow;
+        font-size:20px;
+        cursor:pointer;
+     }
+
+</style>
+</head>
+
+<body>
+<h1>Forms</h1>
+
+
+<!-- id class name style -->
+ <!-- control or element -->
+ <!-- attribute or property -->
+<form action="asdfasdfkjasbdifbaspiabsf.net">
+
+<fieldset>
+    <legend>Personal Informtion</legend>
+<label for="first-name-id">First Name:*</label>
+<!-- <input type="text" name="first-name" disabled /> -->
+<input id="first-name-id" type="text" name="first-name" required />
+<!-- break -->
+<br/>
+<label for="email-id"> Email:* </label>
+<input id="email-id" type="text" name="email-name" />
+</fieldset>
+<br/>
+
+<fieldset>
+    <legend>optional information</legend>
+<label for="checkbox-id">Checkbox:</label>
+<!-- checked -->
+<input type="checkbox" name="check-name"  id="checkbox-id"  /> check 1
+<input type="checkbox" name="check-name" id="checkbox-id" /> check 2
+<br/>
+
+<label for="radio-id">Radio:</label>
+<!-- checked -->
+<input type="radio" name="radio-name"  id="radio-id" />radio 1
+<input type="radio" name="radio-name" id="radio-id" />radio 2
+<br/>
+
+
+<!-- textarea is allow multiple rows -->
+<label for="text-message-id"></label>
+Message(textarea):
+<textarea id="text-message-id" rows="5" name="text-message-name"></textarea>
+
+<br/>
+
+<!-- what is the Dropdown -->
+<!-- you can select any option -->
+
+<label for="selection-id">Dropdown:</label>
+<select id="selection-id">
+<option>Option 1</option>
+<option>Option 2</option>
+<option>Option 3</option>
+<option>Option 4</option>
+<option>Option 5</option>
+</select>
+
+<br/>
+</fieldset>
+
+<fieldset>
+    <legend>Other information</legend>
+    
+<label for="password-id">Password:</label>
+<input id="password-id" type="password" name="password-name" />
+<br/>
+
+<label for="number-id">Number: </label>
+<input id="number-id" type="number" name="number-name" />
+
+<br/>
+ 
+<label for="range-id">Range: </label>
+1 <input id="range-id" type="range" name="range-name" min="1" max="10" />  10
+<br/>
+
+
+ 
+<label for="date-id">Date: </label>
+<input id="date-id" type="date" name="date-name" />
+
+<br/>
+ 
+<label for="time-id">Time: </label>
+<input  id="time-id" type="time" name="time-name" />
+
+<br/>
+ 
+<label for="color-id">Color: </label>
+<input id="color-id" type="color" name="color-name" />
+
+<br>
+
+</fieldset>
+<br>
+
+<input id="submit-id" type="submit" />
+
+
+
+<br/>
+</form>
+
+
+</body>
+</html>
+
+
+<!-- 
+style for element level
+style for the page level(forms-demo.html) -->
+
+<!-- collection of the webpages -->
+
+Q) hwo we are 

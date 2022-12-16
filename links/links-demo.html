@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Links</title>
+    <style>
+         #firstanchortag{
+            color:red;
+            text-decoration: none;
+         }
+         #firstanchortag:hover{
+            color:green;
+         }
+
+         nav{
+            background-color: brown;
+         }
+         nav ul{
+             list-style-type:none;
+         }
+         nav ul li {
+             display : inline;
+         }
+         nav ul li a {
+             color : blue;
+             text-decoration: none;
+         }
+         nav ul li a:hover {
+             color : yellow;
+             background-color: black;
+         }
+
+
+    </style>
+  </head>
+
+  <body>
+    <h1>Links</h1>
+
+    <h2>Internal link</h2>
+    <!-- linked page -->
+    <a id="firstanchortag" href="childpages/linked-page-one.html">linked page</a>
+
+    <h2>External link</h2>
+    <!-- https://www.wikipedia.org/ -->
+    <a href="https://www.wikipedia.org/">Wiki</a>
+
+    <br /><br />
+    <a href="https://www.google.com/">
+      <img src="../Basics/images/employee-image.png" width="500" height="213" />
+    </a>
+
+    <h1>Navigation Links</h1>
+
+    <!-- <a href="childpages/linked-page-one.html">linked page</a> -->
+    <nav>
+      <ul>
+        <li><a href="childpages/linked-page-one.html">Linked - One</a></li>
+        <li><a href="childpages/linked-page-Two.html">Linked - Two</a></li>
+        <li><a href="childpages/linked-page-Three.html">Linked - Three</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Tables</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid green;
+        border-spacing: 0px;
+      }
+      table {
+        width: 300px;
+        height: 300px;
+      }
+
+      td {
+        text-align: right;
+        vertical-align: bottom;
+        padding: 3px;
+      }
+      th {
+        height: 50px;
+      }
+      tbody {
+        background-color: lightblue;
+      }
+      tfoot {
+        font-size: 30px;
+        background-color: brown;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Tables</h1>
+
+    <table>
+      <!-- tablehead -->
+    
+      <thead>
+        <!-- table tr -->
+        <tr>
+          <th>column 1</th>
+          <!-- table data cell -->
+          <th>column 2</th>
+          <th>column 3</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td style="background-color: green" rowspan="2">data 1-1</td>
+          <!--  -->
+          <td>data 2-1</td>
+          <td>data 3-1</td>
+        </tr>
+
+        <tr>
+          <!-- <td>data 1-2</td> -->
+          <td style="background-color: red" colspan="2">data 2-2</td>
+          <!-- <td>data 3-2</td> -->
+        </tr>
+      </tbody>
+
+
+      <tfoot>
+        <tr>
+          <td>total 1</td>
+          <td>total 2</td>
+          <td>total 3</td>
+        </tr>
+      </tfoot>
+
+      
+    </table>
+  </body>
+</html>
